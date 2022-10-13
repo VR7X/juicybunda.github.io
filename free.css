@@ -1,0 +1,397 @@
+
+@font-face {
+  src: url(fonts/Sadsad.ttf);
+  font-family: sad;
+}
+
+body{
+    background-image: url("backfreegif.gif");
+    width: 100%;
+}
+
+h1.header{
+  text-align: center;
+  color: white;
+  font-family: sad;
+}
+
+p.header{
+  position: absolute;
+  right: 350px;
+  top: 60px;
+  color: white;
+  font-family:Sad;
+}
+
+div.header{
+  background-color: black;
+  margin-left: -10px;
+  padding: 20px;
+  padding-top: 5px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin-left: -10px;
+  margin-right: -10px;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding-right: 10px;
+  margin-top: -10px;
+  
+ 
+}
+
+li {
+  float: right;
+}
+
+li.left{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.8s ease;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: gray;
+}
+
+p.underheader{
+
+  color: white;
+  size: 10px;
+  position: absolute;
+  left: 300px;
+  top: 60px;
+}
+
+
+
+
+
+
+
+.container1:hover .overlay1 {
+  bottom: 0;
+  height: 100%;
+}
+
+.container2:hover .overlay2 {
+  bottom: 0;
+  height: 100%;
+}
+
+.container3:hover .overlay3 {
+  bottom: 0;
+  height: 100%;
+}
+
+.container4:hover .overlay4 {
+  bottom: 0;
+  height: 100%;
+}
+
+.container5:hover .overlay5 {
+  bottom: 0;
+  height: 100%;
+}
+
+.container6:hover .overlay6 {
+  bottom: 0;
+  height: 100%;
+}
+
+
+
+
+.container1 {
+  position: relative;
+  width: 20%;
+}
+
+
+
+.container2 {
+  position: relative;
+  width: 20%;
+}
+
+
+.container3 {
+  position: relative;
+  width: 20%;
+}
+
+
+.container4 {
+  position: relative;
+  width: 20%;
+}
+
+
+.container5 {
+  position: relative;
+  width: 20%;
+}
+
+.container6 {
+  position: relative;
+  width: 20%;
+}
+
+
+
+
+
+
+
+
+  
+ 
+
+    
+  .image1 {
+    
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 20px;
+    top: 4px;
+  }
+
+  .image2 {
+    
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 600px;
+    top: 50px;
+    
+  }
+
+  .image3 {
+    
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 1000px;
+    top: 300px;
+  }
+
+  .image4 {
+    display: block;
+    width: 100%;
+    height: auto;
+    left: 40px;
+    top: -200px;
+    position: relative;
+  }
+
+  .image5 {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 70px;
+    left: 450px;
+  }
+
+  .image6 {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 200px;
+    left: 900px;
+  }
+
+
+  
+  .text {
+    white-space: nowrap; 
+    color: rgb(163, 163, 163);
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  h1.uwawu{
+    border: 10px 5px solid white;
+    border-radius: 5px;
+    color: #5f5f5f;
+    margin-left: 500px;
+
+    
+  }
+  
+  .text4 {
+    white-space: nowrap; 
+    color: rgb(163, 163, 163);
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+
+  
+
+  
+  .text5 {
+    white-space: nowrap; 
+    color: rgb(163, 163, 163);
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  
+  
+  .text6 {
+    white-space: nowrap; 
+    color: rgb(163, 163, 163);
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+
+
+
+
+  .overlay1 {
+    position: absolute;
+    bottom: 100%;
+    left: 20px;
+    right: 0;
+    background-color: #3f3f3f;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .9s ease;
+  }
+
+  .overlay2 {
+    position: absolute;
+    bottom: 100%;
+    top: 50px;
+    left: 600px;
+    background-color: #3f3f3f;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .9s ease;
+  }
+
+  .overlay3 {
+    position: absolute;
+    bottom: 100%;
+    left: 1000px;
+    top: 300px;
+    right: 0;background-color: #3f3f3f;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .9s ease;
+  }
+
+  .overlay4 {
+    position: absolute;
+    bottom: 100%;
+    left: 40px;
+    top: -200px;
+    background-color: #3f3f3f;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .9s ease;
+  }
+
+  .overlay5 {
+    position: absolute;
+    bottom: 100%;
+    top: 70px;
+    left: 450px;
+    background-color: #3f3f3f;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .9s ease;
+  }
+
+  .overlay6 {
+    position: absolute;
+    bottom: 100%;
+    left: 900px;
+    top: 200px;
+    background-color: #3f3f3f;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .9s ease;
+  }
+
+  p.footer{
+    background-color: rgb(0, 0, 0);
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: left;
+    padding-left: 30px;
+    
+    padding: 20px 10px 150px 30px;
+    color: rgb(116, 116, 116);
+    font-size: 30px;
+  }
+
+  img.heart{
+
+    position: absolute;
+    top: 1830px;
+    right: 150px;
+    width: 100px;
+    height: 70px;
+  }
+
+ 
+
+  
+
+
+ 
+
+
+
+
+
+  

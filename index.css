@@ -1,0 +1,473 @@
+
+
+    body{
+        background-color: #202020;
+    }
+
+    *{
+        transition: 0.9s;
+    }
+
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #202020;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-family: Roboto,Helvetica Neue,Arial;
+}
+
+li {
+  float: left;
+  margin-left: 40px;
+}
+
+
+li a, .modelbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 10px;
+  
+}
+
+li a:hover, .dropdownmodel:hover .modelbtn {
+  background-color: rgb(141, 141, 141);
+  color: white;
+}
+
+li.dropdownmodel {
+  display: inline-block;
+}
+
+.dropdown-content-model {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content-model a {
+  color: rgb(129, 129, 129);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content-model a:hover {background-color: #333;}
+
+.dropdownmodel:hover .dropdown-content-model {
+  display: block;
+}
+
+
+li a, .CSbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdownCS:hover .CSbtn {
+  background-color: rgb(141, 141, 141);
+}
+
+li.dropdownCS {
+  display: inline-block;
+}
+
+.dropdown-content-CS {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content-CS a {
+  color: rgb(129, 129, 129);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content-CS a:hover {background-color: #333;}
+
+.dropdownCS:hover .dropdown-content-CS {
+  display: block;
+}
+
+
+
+
+
+
+li a, .ownerbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdownowner:hover .ownerbtn {
+  background-color: rgb(141, 141, 141);
+}
+
+li.dropdownowner {
+  display: inline-block;
+}
+
+.dropdown-content-owner {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content-owner a {
+  color: rgb(129, 129, 129);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content-owner a:hover {background-color: #333;}
+
+.dropdownowner:hover .dropdown-content-owner {
+  display: block;
+}
+
+
+
+li a, .sportbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdownsport:hover .sportbtn {
+  background-color: rgb(141, 141, 141);
+}
+
+li.dropdownsport {
+  display: inline-block;
+}
+
+.dropdown-content-sport {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content-sport a {
+  color: rgb(129, 129, 129);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content-sport a:hover {background-color: #333;}
+
+.dropdownsport:hover .dropdown-content-sport {
+  display: block;
+}
+
+
+
+
+li a, .aventadorbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdownaventador:hover .aventadorbtn {
+  background-color: rgb(141, 141, 141);
+}
+
+li.dropdownaventador {
+  display: inline-block;
+}
+
+.dropdown-content-aventador {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content-aventador a {
+  color: rgb(129, 129, 129);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content-aventador a:hover {background-color: #333;}
+
+.dropdownaventador:hover .dropdown-content-aventador {
+  display: block;
+
+}
+
+.logo{
+  float: left;
+
+}
+
+
+li a, .anotherbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover, .dropdownanother:hover .anotherbtn {
+  background-color: rgb(141, 141, 141);
+}
+
+li.dropdownanother {
+  display: inline-block;
+}
+
+.dropdown-content-another {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content-another a {
+  color: rgb(129, 129, 129);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content-another a:hover {background-color: #333;}
+
+.dropdownanother:hover .dropdown-content-another {
+  display: block;
+
+
+
+}
+
+
+div.aventadorimg{
+    margin-top: 15px;
+    
+
+
+}
+
+div.alltext{
+    color: white;
+    
+}
+
+img.aventador{
+    width: 1350px;
+    margin-left: -10px;
+
+}
+
+
+div.aventadortext{
+    top: 300px;
+    left: 100px;
+    position: absolute;
+    font-size: 50px;  
+}
+
+div.aventadortext2{
+    top: 360px;
+    left: 130px;
+    position: absolute;
+    font-size: 20px;  
+    color: greenyellow;
+    
+}
+
+div.aventadortext3{
+    top: 320px;
+    left: 400px;
+    position: absolute;
+    font-size: 40px;  
+}
+
+img.urus{
+    width: 1350px;
+    margin-left: -10px;
+    margin-top: -40px;
+}
+
+div.urustext{
+    top: 1300px;
+    right: 200px;
+    position: absolute;
+    font-size: 70px;  
+}
+
+div.urustext2{
+    top: 1365px;
+    right: 200px;
+    position: absolute;
+    font-size: 20px;  
+}
+
+div.urustext3{
+    top: 1340px;
+    right: 130px;
+    position: absolute;
+    font-size: 30px;  
+}
+
+div.urustext4{
+    top: 1325px;
+    right: 100px;
+    position: absolute;
+    font-size: 15px;  
+}
+
+img.vision{
+    width: 1350px;
+    margin-left: -10px;
+    margin-top: -60px;
+}
+
+
+div.visiontext{
+    top: 2100px;
+    left: 460px;
+    position: absolute;
+    font-size: 50px;  
+}
+
+div.visiontext2{
+    top: 2050px;
+    left: 500px;
+    position: absolute;
+    font-size: 70px;  
+}
+
+div.visiontext3{
+    top: 2050px;
+    left: 600px;
+    position: absolute;
+    font-size: 15px;  
+}
+
+div.visiontext4{
+    top: 2040px;
+    left: 680px;
+    position: absolute;
+    font-size: 25px;  
+}
+
+div.visiontext5{
+    top: 2070px;
+    left: 650px;
+    position: absolute;
+    font-size: 30px;  
+}
+
+
+
+
+
+
+img.huracan{
+    width: 1350px;
+    margin-left: -10px;
+    margin-top: -40px;
+}
+
+.huracantext{
+    position: absolute;
+    right: 50px;
+    top: 3400px;
+    font-size: 60px;
+}
+
+.huracantext2{
+    position: absolute;
+    right: 50px;
+    top: 3455px;
+    font-size: 35px;
+}
+
+.huracantext3{
+    position: absolute;
+    right: 50px;
+    top: 3455px;
+    font-size: 15px;
+}
+
+.huracantext4{
+    position: absolute;
+    right: 145px;
+    top: 3419px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+footer.footer{
+    font-family: Roboto,Helvetica Neue,Arial;;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    position: -webkit-sticky;
+    position: sticky;
+    size: 20px;
+    bottom: 0;
+    padding: 10px;
+}
+
+
